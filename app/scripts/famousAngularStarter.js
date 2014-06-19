@@ -9,17 +9,17 @@ angular.module('famousAngularStarter',
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'partials/main.html',
+        templateUrl: 'markups/main.html',
         controller: 'MainCtrl'
       })
       .state('haml', {
         url: '/haml',
-        templateUrl: 'partials/haml.html',
+        templateUrl: 'markups/haml.html',
         controller: 'MainCtrl'
       })
       .state('jade', {
         url: '/jade',
-        templateUrl: 'partials/jade.html',
+        templateUrl: 'markups/jade.html',
         controller: 'MainCtrl'
       });
 
